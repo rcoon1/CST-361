@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_LjwtwOOZEey2JPVuWLXeUA">
+  <modelElement href="activity4.uml#_LgD5gOOZEey2JPVuWLXeUA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MJpCAOOZEey2JPVuWLXeUA" sourceAnchor="0.0,96.0" targetAnchor="137.0,118.0" target="_MKzfoOOZEey2JPVuWLXeUA" source="_MJqQIOOZEey2JPVuWLXeUA">
+    <modelElement href="activity4.uml#_L-6_wOOZEey2JPVuWLXeUA"/>
+    <bendpoints xmi:id="_MQ0oEOOZEey2JPVuWLXeUA" sourceX="-528" targetY="151"/>
+    <stereotypes xmi:id="_MJppEOOZEey2JPVuWLXeUA" name="Reference">
+      <modelElement href="activity4.uml#_L_DioOOZEey2JPVuWLXeUA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MJppEeOZEey2JPVuWLXeUA" text="">
+      <visualProperties xmi:id="_MQ2dQOOZEey2JPVuWLXeUA" position="431.43591642327385,-5.584720369173112"/>
+    </nameVisual>
+    <sourceRole xmi:id="_MJppEuOZEey2JPVuWLXeUA" aggregationKind="NONE" name="">
+      <modelElement href="activity4.uml#_L-6_weOZEey2JPVuWLXeUA"/>
+      <visualProperties xmi:id="_MQ12MeOZEey2JPVuWLXeUA" position="-49.52626516161081,-14.865012340155516"/>
+      <visibility xmi:id="_MJppE-OZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MJppFOOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MJppFeOZEey2JPVuWLXeUA" aggregationKind="NONE" name="tracks" navigable="true">
+      <modelElement href="activity4.uml#_L-Q4dOOZEey2JPVuWLXeUA"/>
+      <visualProperties xmi:id="_MQ3EUOOZEey2JPVuWLXeUA" position="385.83724023510797,135.6754223021803"/>
+      <visibility xmi:id="_MJppFuOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MJppF-OZEey2JPVuWLXeUA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MLJd4eOZEey2JPVuWLXeUA" targetItem="_MLL6M-OZEey2JPVuWLXeUA" sourceItem="_MLJd4OOZEey2JPVuWLXeUA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_MLKsAeOZEey2JPVuWLXeUA" targetItem="_MLL6OuOZEey2JPVuWLXeUA" sourceItem="_MLKsAOOZEey2JPVuWLXeUA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_MLL6IOOZEey2JPVuWLXeUA" source="_MLL6KeOZEey2JPVuWLXeUA">
+    <modelElement href="activity4.uml#_L_EJsOOZEey2JPVuWLXeUA"/>
+    <stereotypes xmi:id="_MLL6IeOZEey2JPVuWLXeUA" name="Reference">
+      <modelElement href="activity4.uml#_L_MFgOOZEey2JPVuWLXeUA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_MLL6IuOZEey2JPVuWLXeUA" text=""/>
+    <sourceRole xmi:id="_MLL6I-OZEey2JPVuWLXeUA" aggregationKind="NONE" name="">
+      <modelElement href="activity4.uml#_L_EJseOZEey2JPVuWLXeUA"/>
+      <visibility xmi:id="_MLL6JOOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MLL6JeOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_MLL6JuOZEey2JPVuWLXeUA" aggregationKind="NONE" name="albums" navigable="true">
+      <modelElement href="activity4.uml#_L-WYAOOZEey2JPVuWLXeUA"/>
+      <visibility xmi:id="_MLL6J-OZEey2JPVuWLXeUA" label="~"/>
+      <cardinality xmi:id="_MLL6KOOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_MLPkgOOZEey2JPVuWLXeUA" sourceAnchor="270.0,60.0" targetAnchor="129.0,88.0" dashed="true" superClass="_MLQyoOOZEey2JPVuWLXeUA" subClass="_MLL6KeOZEey2JPVuWLXeUA">
+    <modelElement href="activity4.uml#_L93P0OOZEey2JPVuWLXeUA"/>
+    <bendpoints xmi:id="_MQ12MOOZEey2JPVuWLXeUA" sourceX="194" targetY="115"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MLJd4OOZEey2JPVuWLXeUA" sourceConnectionVisual="_MLJd4eOZEey2JPVuWLXeUA" text="Default constructor." item="_MLL6M-OZEey2JPVuWLXeUA">
+    <modelElement href="activity4.uml#_L-3VY-OZEey2JPVuWLXeUA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_MLKsAOOZEey2JPVuWLXeUA" sourceConnectionVisual="_MLKsAeOZEey2JPVuWLXeUA" text="@see MusicManagerInterface#addAlbum(Album)" item="_MLL6OuOZEey2JPVuWLXeUA">
+    <modelElement href="activity4.uml#_L-38cOOZEey2JPVuWLXeUA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MJqQIOOZEey2JPVuWLXeUA" name="Album" associationsOut="_MJpCAOOZEey2JPVuWLXeUA">
+    <modelElement href="activity4.uml#_L3RfoOOZEey2JPVuWLXeUA"/>
+    <visualProperties xmi:id="_MJqQIeOZEey2JPVuWLXeUA" position="30.0,30.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_MJqQIuOZEey2JPVuWLXeUA" name="LegacyStyledElement">
+      <modelElement href="activity4.uml#_L3WYIOOZEey2JPVuWLXeUA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_MJqQI-OZEey2JPVuWLXeUA" name="Annotations">
+      <modelElement href="activity4.uml#_L3gwMOOZEey2JPVuWLXeUA"/>
+    </stereotypes>
+    <visibility xmi:id="_MJqQJOOZEey2JPVuWLXeUA" label="+"/>
+    <attributes xmi:id="_MJqQJeOZEey2JPVuWLXeUA" name="title">
+      <modelElement href="activity4.uml#_L-I8oOOZEey2JPVuWLXeUA"/>
+      <stereotypes xmi:id="_MJqQJuOZEey2JPVuWLXeUA" name="NotNull">
+        <modelElement href="activity4.uml#_L-LY4OOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MJqQJ-OZEey2JPVuWLXeUA" name="Size">
+        <modelElement href="activity4.uml#_L-L_8OOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MJqQKOOZEey2JPVuWLXeUA" name="JPA1StyledElement">
+        <modelElement href="activity4.uml#_L-N1IOOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <visibility xmi:id="_MJqQKeOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MJqQKuOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <type xmi:id="_MJqQK-OZEey2JPVuWLXeUA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MJqQLOOZEey2JPVuWLXeUA" name="artist">
+      <modelElement href="activity4.uml#_L-OcMOOZEey2JPVuWLXeUA"/>
+      <stereotypes xmi:id="_MJqQLeOZEey2JPVuWLXeUA" name="NotNull">
+        <modelElement href="activity4.uml#_L-PDQOOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MJqQLuOZEey2JPVuWLXeUA" name="Size">
+        <modelElement href="activity4.uml#_L-PDQeOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_MJqQL-OZEey2JPVuWLXeUA" name="JPA1StyledElement">
+        <modelElement href="activity4.uml#_L-PqUOOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <visibility xmi:id="_MJqQMOOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MJqQMeOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <type xmi:id="_MJqQMuOZEey2JPVuWLXeUA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MJqQM-OZEey2JPVuWLXeUA" name="year">
+      <modelElement href="activity4.uml#_L-PqUeOZEey2JPVuWLXeUA"/>
+      <stereotypes xmi:id="_MJqQNOOZEey2JPVuWLXeUA" name="Annotations">
+        <modelElement href="activity4.uml#_L-QRYOOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <visibility xmi:id="_MJqQNeOZEey2JPVuWLXeUA" label="-"/>
+      <cardinality xmi:id="_MJqQNuOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <type xmi:id="_MJqQN-OZEey2JPVuWLXeUA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MJqQOOOZEey2JPVuWLXeUA" name="tracks">
+      <modelElement href="activity4.uml#_L-Q4dOOZEey2JPVuWLXeUA"/>
+      <stereotypes xmi:id="_MJqQOeOZEey2JPVuWLXeUA" name="StyledElement">
+        <modelElement href="activity4.uml#_L-StoOOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <visibility xmi:id="_MJqQOuOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MJqQO-OZEey2JPVuWLXeUA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_MJqQPOOZEey2JPVuWLXeUA" name="Track">
+        <modelElement href="activity4.uml#_L3losOOZEey2JPVuWLXeUA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_MJqQPeOZEey2JPVuWLXeUA" name="Album">
+      <modelElement href="activity4.uml#_L3ZbcOOZEey2JPVuWLXeUA"/>
+      <keywords xmi:id="_MJqQPuOZEey2JPVuWLXeUA" keyword="create"/>
+      <stereotypes xmi:id="_MJqQP-OZEey2JPVuWLXeUA" name="StyledElement">
+        <modelElement href="activity4.uml#_L3cewOOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <visibility xmi:id="_MJqQQOOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MJqQQeOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MJqQQuOZEey2JPVuWLXeUA">
+        <modelElement href="activity4.uml#_L3bQoOOZEey2JPVuWLXeUA"/>
+        <type xmi:id="_MJqQQ-OZEey2JPVuWLXeUA" name="Album">
+          <modelElement href="activity4.uml#_L3RfoOOZEey2JPVuWLXeUA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MJqQROOZEey2JPVuWLXeUA" name="getYear">
+      <modelElement href="activity4.uml#_L3dF0OOZEey2JPVuWLXeUA"/>
+      <stereotypes xmi:id="_MJqQReOZEey2JPVuWLXeUA" name="StyledElement">
+        <modelElement href="activity4.uml#_L3ds4eOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <visibility xmi:id="_MJqQRuOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MJqQR-OZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MJqQSOOZEey2JPVuWLXeUA">
+        <modelElement href="activity4.uml#_L3ds4OOZEey2JPVuWLXeUA"/>
+        <type xmi:id="_MJqQSeOZEey2JPVuWLXeUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MJqQSuOZEey2JPVuWLXeUA" name="setYear">
+      <modelElement href="activity4.uml#_L3eT8OOZEey2JPVuWLXeUA"/>
+      <stereotypes xmi:id="_MJqQS-OZEey2JPVuWLXeUA" name="StyledElement">
+        <modelElement href="activity4.uml#_L3eT8uOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <visibility xmi:id="_MJqQTOOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MJqQTeOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_MJqQTuOZEey2JPVuWLXeUA" name="year">
+        <modelElement href="activity4.uml#_L3eT8eOZEey2JPVuWLXeUA"/>
+        <cardinality xmi:id="_MJqQT-OZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+        <type xmi:id="_MJq3MOOZEey2JPVuWLXeUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_MJq3MeOZEey2JPVuWLXeUA" name="getNumberTracks">
+      <modelElement href="activity4.uml#_L3e7AOOZEey2JPVuWLXeUA"/>
+      <stereotypes xmi:id="_MJq3MuOZEey2JPVuWLXeUA" name="StyledElement">
+        <modelElement href="activity4.uml#_L3fiEeOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <visibility xmi:id="_MJq3M-OZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MJq3NOOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MJq3NeOZEey2JPVuWLXeUA">
+        <modelElement href="activity4.uml#_L3fiEOOZEey2JPVuWLXeUA"/>
+        <type xmi:id="_MJq3NuOZEey2JPVuWLXeUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MKzfoOOZEey2JPVuWLXeUA" name="Track" associationsIn="_MJpCAOOZEey2JPVuWLXeUA">
+    <modelElement href="activity4.uml#_L3losOOZEey2JPVuWLXeUA"/>
+    <visualProperties xmi:id="_MKzfoeOZEey2JPVuWLXeUA" position="-635.0,-143.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_MKzfouOZEey2JPVuWLXeUA" label="+"/>
+    <attributes xmi:id="_MKzfo-OZEey2JPVuWLXeUA" name="name">
+      <modelElement href="activity4.uml#_L-T7wOOZEey2JPVuWLXeUA"/>
+      <visibility xmi:id="_MKzfpOOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MKzfpeOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <type xmi:id="_MKzfpuOZEey2JPVuWLXeUA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_MKzfp-OZEey2JPVuWLXeUA" name="number">
+      <modelElement href="activity4.uml#_L-Ui0OOZEey2JPVuWLXeUA"/>
+      <visibility xmi:id="_MKzfqOOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MKzfqeOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <type xmi:id="_MKzfquOZEey2JPVuWLXeUA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_MKzfq-OZEey2JPVuWLXeUA" name="Track">
+      <modelElement href="activity4.uml#_L3nd4OOZEey2JPVuWLXeUA"/>
+      <keywords xmi:id="_MKzfrOOZEey2JPVuWLXeUA" keyword="create"/>
+      <visibility xmi:id="_MKzfreOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MKzfruOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MKzfr-OZEey2JPVuWLXeUA">
+        <modelElement href="activity4.uml#_L3oE8OOZEey2JPVuWLXeUA"/>
+        <type xmi:id="_MKzfsOOZEey2JPVuWLXeUA" name="Track">
+          <modelElement href="activity4.uml#_L3losOOZEey2JPVuWLXeUA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MKzfseOZEey2JPVuWLXeUA" name="Track">
+      <modelElement href="activity4.uml#_L3osAOOZEey2JPVuWLXeUA"/>
+      <keywords xmi:id="_MKzfsuOZEey2JPVuWLXeUA" keyword="create"/>
+      <visibility xmi:id="_MKzfs-OZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MKzftOOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MKzfteOZEey2JPVuWLXeUA">
+        <modelElement href="activity4.uml#_L3pTEOOZEey2JPVuWLXeUA"/>
+        <type xmi:id="_MKzftuOZEey2JPVuWLXeUA" name="Track">
+          <modelElement href="activity4.uml#_L3losOOZEey2JPVuWLXeUA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MKzft-OZEey2JPVuWLXeUA" name="title">
+        <modelElement href="activity4.uml#_L3osAeOZEey2JPVuWLXeUA"/>
+        <cardinality xmi:id="_MKzfuOOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+        <type xmi:id="_MKzfueOZEey2JPVuWLXeUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_MKzfuuOZEey2JPVuWLXeUA" name="number">
+        <modelElement href="activity4.uml#_L3osAuOZEey2JPVuWLXeUA"/>
+        <cardinality xmi:id="_MKzfu-OZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+        <type xmi:id="_MKzfvOOZEey2JPVuWLXeUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MLL6KeOZEey2JPVuWLXeUA" name="MusicManager" associationsOut="_MLL6IOOZEey2JPVuWLXeUA" generalizations="_MLPkgOOZEey2JPVuWLXeUA">
+    <modelElement href="activity4.uml#_L3p6IOOZEey2JPVuWLXeUA"/>
+    <visualProperties xmi:id="_MLL6KuOZEey2JPVuWLXeUA" position="-297.0,-62.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_MLL6K-OZEey2JPVuWLXeUA" name="LegacyStyledElement">
+      <modelElement href="activity4.uml#_L3qhMOOZEey2JPVuWLXeUA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_MLL6LOOZEey2JPVuWLXeUA" name="Annotations">
+      <modelElement href="activity4.uml#_L3sWYOOZEey2JPVuWLXeUA"/>
+    </stereotypes>
+    <visibility xmi:id="_MLL6LeOZEey2JPVuWLXeUA" label="+"/>
+    <attributes xmi:id="_MLL6LuOZEey2JPVuWLXeUA" name="albums">
+      <modelElement href="activity4.uml#_L-WYAOOZEey2JPVuWLXeUA"/>
+      <stereotypes xmi:id="_MLL6L-OZEey2JPVuWLXeUA" name="Generics">
+        <modelElement href="activity4.uml#_L-gJAOOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <visibility xmi:id="_MLL6MOOZEey2JPVuWLXeUA" label="~"/>
+      <cardinality xmi:id="_MLL6MeOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <type xmi:id="_MLL6MuOZEey2JPVuWLXeUA" name="ArrayList">
+        <modelElement href="activity4.uml#_L9kU4OOZEey2JPVuWLXeUA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_MLL6M-OZEey2JPVuWLXeUA" comments="_MLJd4OOZEey2JPVuWLXeUA" targetConnectionVisual="_MLJd4eOZEey2JPVuWLXeUA" name="MusicManager">
+      <modelElement href="activity4.uml#_L3rIQOOZEey2JPVuWLXeUA"/>
+      <keywords xmi:id="_MLL6NOOZEey2JPVuWLXeUA" keyword="create"/>
+      <stereotypes xmi:id="_MLL6NeOZEey2JPVuWLXeUA" name="StyledElement">
+        <modelElement href="activity4.uml#_L3rvUuOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <visibility xmi:id="_MLL6NuOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MLL6N-OZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MLL6OOOZEey2JPVuWLXeUA">
+        <modelElement href="activity4.uml#_L3rvUeOZEey2JPVuWLXeUA"/>
+        <type xmi:id="_MLL6OeOZEey2JPVuWLXeUA" name="MusicManager">
+          <modelElement href="activity4.uml#_L3p6IOOZEey2JPVuWLXeUA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_MLL6OuOZEey2JPVuWLXeUA" comments="_MLKsAOOZEey2JPVuWLXeUA" targetConnectionVisual="_MLKsAeOZEey2JPVuWLXeUA" name="addAlbum">
+      <modelElement href="activity4.uml#_L94d8OOZEey2JPVuWLXeUA"/>
+      <stereotypes xmi:id="_MLL6O-OZEey2JPVuWLXeUA" name="StyledElement">
+        <modelElement href="activity4.uml#_L95FAeOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <visibility xmi:id="_MLL6POOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MLL6PeOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MLL6PuOZEey2JPVuWLXeUA">
+        <modelElement href="activity4.uml#_L95FAOOZEey2JPVuWLXeUA"/>
+        <type xmi:id="_MLL6P-OZEey2JPVuWLXeUA" name="Album">
+          <modelElement href="activity4.uml#_L3RfoOOZEey2JPVuWLXeUA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MLL6QOOZEey2JPVuWLXeUA" name="album">
+        <modelElement href="activity4.uml#_L94d8eOZEey2JPVuWLXeUA"/>
+        <cardinality xmi:id="_MLL6QeOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+        <type xmi:id="_MLL6QuOZEey2JPVuWLXeUA" name="Album">
+          <modelElement href="activity4.uml#_L3RfoOOZEey2JPVuWLXeUA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MLVrIOOZEey2JPVuWLXeUA" name="AlbumController">
+    <modelElement href="activity4.uml#_L3zrIOOZEey2JPVuWLXeUA"/>
+    <visualProperties xmi:id="_MLVrIeOZEey2JPVuWLXeUA" position="281.0,-17.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_MLVrIuOZEey2JPVuWLXeUA" name="LegacyStyledElement">
+      <modelElement href="activity4.uml#_L30SMOOZEey2JPVuWLXeUA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_MLVrI-OZEey2JPVuWLXeUA" name="Annotations">
+      <modelElement href="activity4.uml#_L305QOOZEey2JPVuWLXeUA"/>
+    </stereotypes>
+    <visibility xmi:id="_MLVrJOOZEey2JPVuWLXeUA" label="+"/>
+    <operations xmi:id="_MLVrJeOZEey2JPVuWLXeUA" name="onSubmit">
+      <modelElement href="activity4.uml#_L98vYOOZEey2JPVuWLXeUA"/>
+      <stereotypes xmi:id="_MLVrJuOZEey2JPVuWLXeUA" name="StyledElement">
+        <modelElement href="activity4.uml#_L9-kkOOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <visibility xmi:id="_MLVrJ-OZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MLVrKOOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MLVrKeOZEey2JPVuWLXeUA">
+        <modelElement href="activity4.uml#_L999gOOZEey2JPVuWLXeUA"/>
+        <type xmi:id="_MLVrKuOZEey2JPVuWLXeUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MLVrK-OZEey2JPVuWLXeUA" name="album">
+        <modelElement href="activity4.uml#_L99WcOOZEey2JPVuWLXeUA"/>
+        <cardinality xmi:id="_MLVrLOOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+        <type xmi:id="_MLVrLeOZEey2JPVuWLXeUA" name="Album">
+          <modelElement href="activity4.uml#_L3RfoOOZEey2JPVuWLXeUA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_MLZVgOOZEey2JPVuWLXeUA" name="TracksNotFoundException">
+    <modelElement href="activity4.uml#_L32ucOOZEey2JPVuWLXeUA"/>
+    <visualProperties xmi:id="_MLZVgeOZEey2JPVuWLXeUA" position="618.0,-26.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_MLZVguOZEey2JPVuWLXeUA" label="+"/>
+    <attributes xmi:id="_MLZVg-OZEey2JPVuWLXeUA" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="activity4.uml#_L-h-MOOZEey2JPVuWLXeUA"/>
+      <visibility xmi:id="_MLZVhOOZEey2JPVuWLXeUA" label="-"/>
+      <cardinality xmi:id="_MLZVheOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <type xmi:id="_MLZVhuOZEey2JPVuWLXeUA" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_MLZVh-OZEey2JPVuWLXeUA" name="TracksNotFoundException">
+      <modelElement href="activity4.uml#_L33VgOOZEey2JPVuWLXeUA"/>
+      <keywords xmi:id="_MLZViOOZEey2JPVuWLXeUA" keyword="create"/>
+      <visibility xmi:id="_MLZVieOZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MLZViuOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MLZVi-OZEey2JPVuWLXeUA">
+        <modelElement href="activity4.uml#_L338kuOZEey2JPVuWLXeUA"/>
+        <type xmi:id="_MLZVjOOZEey2JPVuWLXeUA" name="TracksNotFoundException">
+          <modelElement href="activity4.uml#_L32ucOOZEey2JPVuWLXeUA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MLZVjeOZEey2JPVuWLXeUA" name="errorMessage">
+        <modelElement href="activity4.uml#_L33VgeOZEey2JPVuWLXeUA"/>
+        <cardinality xmi:id="_MLZVjuOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+        <type xmi:id="_MLZVj-OZEey2JPVuWLXeUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_MLQyoOOZEey2JPVuWLXeUA" name="MusicManagerInterface" subclassedBy="_MLPkgOOZEey2JPVuWLXeUA">
+    <modelElement href="activity4.uml#_L3uyoOOZEey2JPVuWLXeUA"/>
+    <visualProperties xmi:id="_MLQyoeOZEey2JPVuWLXeUA" position="38.0,-205.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_MLQyouOZEey2JPVuWLXeUA" name="LegacyStyledElement">
+      <modelElement href="activity4.uml#_L3wn0OOZEey2JPVuWLXeUA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_MLQyo-OZEey2JPVuWLXeUA" name="Annotations">
+      <modelElement href="activity4.uml#_L3x18OOZEey2JPVuWLXeUA"/>
+    </stereotypes>
+    <visibility xmi:id="_MLQypOOZEey2JPVuWLXeUA" label="+"/>
+    <operations xmi:id="_MLQypeOZEey2JPVuWLXeUA" name="addAlbum">
+      <modelElement href="activity4.uml#_L96TIOOZEey2JPVuWLXeUA"/>
+      <stereotypes xmi:id="_MLQypuOZEey2JPVuWLXeUA" name="StyledElement">
+        <modelElement href="activity4.uml#_L966MuOZEey2JPVuWLXeUA"/>
+      </stereotypes>
+      <visibility xmi:id="_MLQyp-OZEey2JPVuWLXeUA" label="+"/>
+      <cardinality xmi:id="_MLQyqOOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_MLQyqeOZEey2JPVuWLXeUA">
+        <modelElement href="activity4.uml#_L966MeOZEey2JPVuWLXeUA"/>
+        <type xmi:id="_MLQyquOZEey2JPVuWLXeUA" name="Album">
+          <modelElement href="activity4.uml#_L3RfoOOZEey2JPVuWLXeUA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_MLQyq-OZEey2JPVuWLXeUA" name="model">
+        <modelElement href="activity4.uml#_L966MOOZEey2JPVuWLXeUA"/>
+        <cardinality xmi:id="_MLQyrOOZEey2JPVuWLXeUA" label="1" max="1" min="1"/>
+        <type xmi:id="_MLQyreOZEey2JPVuWLXeUA" name="Album">
+          <modelElement href="activity4.uml#_L3RfoOOZEey2JPVuWLXeUA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
