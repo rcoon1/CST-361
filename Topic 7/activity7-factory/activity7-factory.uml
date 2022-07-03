@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_yZo2gPp0EeyN3IBhtIohtA" name="activity7_factory">
+    <eAnnotations xmi:id="_ycKmEPp0EeyN3IBhtIohtA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_ycKmEfp0EeyN3IBhtIohtA" source="codegen">
+        <details xmi:id="_ycKmEvp0EeyN3IBhtIohtA" key="codegenDirectory" value="/activity7-factory/src"/>
+        <details xmi:id="_yia_EPp0EeyN3IBhtIohtA" key="AssociatedSourceCode" value="/activity7-factory/src/factory/CarFactory.java;2122061866/1;/activity7-factory/src/factory/CarType.java;3951863246/1;/activity7-factory/src/factory/FactoryDemo.java;3774092155/1;/activity7-factory/src/factory/Sedan.java;2250004244/1;/activity7-factory/src/factory/Truck.java;1841679661/1;/activity7-factory/src/factory/Van.java;1774493959/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_yhYdQPp0EeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_yhYdQfp0EeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_yhYdQvp0EeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_yhYdQ_p0EeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_yhYdRPp0EeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_yhYdRfp0EeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_yhYdRvp0EeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_yhYdR_p0EeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_yhZEUPp0EeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_yhZrYPp0EeyN3IBhtIohtA" name="factory">
+      <packagedElement xmi:type="uml:Class" xmi:id="_yhcHoPp0EeyN3IBhtIohtA" name="CarFactory">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yh5aoPp0EeyN3IBhtIohtA" name="getCar" specification="_yhcusPp0EeyN3IBhtIohtA">
+          <ownedParameter xmi:id="_yh5aofp0EeyN3IBhtIohtA" name="car">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_yh5aovp0EeyN3IBhtIohtA" type="_yhdVwPp0EeyN3IBhtIohtA" direction="return"/>
+          <language>java</language>
+          <body>if(car == null) {&#xD;
+			return null;&#xD;
+		}&#xD;
+		if(car.equalsIgnoreCase(&quot;Truck&quot;)) {&#xD;
+			return new Truck();&#xD;
+		}&#xD;
+		if(car.equalsIgnoreCase(&quot;Sedan&quot;)) {&#xD;
+			return new Sedan();&#xD;
+		}&#xD;
+		if(car.equalsIgnoreCase(&quot;Van&quot;)) {&#xD;
+			return new Van();&#xD;
+		}&#xD;
+		&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yhcusPp0EeyN3IBhtIohtA" name="getCar" method="_yh5aoPp0EeyN3IBhtIohtA">
+          <ownedParameter xmi:id="_yhcusfp0EeyN3IBhtIohtA" name="car">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_yh4MgPp0EeyN3IBhtIohtA" type="_yhdVwPp0EeyN3IBhtIohtA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_yhdVwPp0EeyN3IBhtIohtA" name="CarType">
+        <ownedOperation xmi:id="_yhdVwfp0EeyN3IBhtIohtA" name="drive"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yhd80Pp0EeyN3IBhtIohtA" name="FactoryDemo">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yh5ao_p0EeyN3IBhtIohtA" name="main" specification="_yhd80fp0EeyN3IBhtIohtA">
+          <ownedParameter xmi:id="_yh5apPp0EeyN3IBhtIohtA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yh5apfp0EeyN3IBhtIohtA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO Auto-generated method stub&#xD;
+		CarFactory factory = new CarFactory();&#xD;
+		&#xD;
+		CarType car1 = factory.getCar(&quot;Truck&quot;);&#xD;
+		car1.drive();&#xD;
+		CarType car2 = factory.getCar(&quot;Sedan&quot;);&#xD;
+		car2.drive();&#xD;
+		CarType car3 = factory.getCar(&quot;Van&quot;);&#xD;
+		car3.drive();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yhd80fp0EeyN3IBhtIohtA" name="main" isStatic="true" method="_yh5ao_p0EeyN3IBhtIohtA">
+          <ownedParameter xmi:id="_yhd80vp0EeyN3IBhtIohtA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yhej4Pp0EeyN3IBhtIohtA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yhej4fp0EeyN3IBhtIohtA" name="Sedan">
+        <interfaceRealization xmi:id="_yh4zkPp0EeyN3IBhtIohtA" client="_yhej4fp0EeyN3IBhtIohtA" supplier="_yhdVwPp0EeyN3IBhtIohtA" contract="_yhdVwPp0EeyN3IBhtIohtA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yh5apvp0EeyN3IBhtIohtA" name="drive" specification="_yhej4vp0EeyN3IBhtIohtA">
+          <language>java</language>
+          <body>System.out.println(&quot;Jump in the Sedan and start driving!&quot;);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yhej4vp0EeyN3IBhtIohtA" name="drive" method="_yh5apvp0EeyN3IBhtIohtA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yhfK8_p0EeyN3IBhtIohtA" name="Truck">
+        <interfaceRealization xmi:id="_yh4zkfp0EeyN3IBhtIohtA" client="_yhfK8_p0EeyN3IBhtIohtA" supplier="_yhdVwPp0EeyN3IBhtIohtA" contract="_yhdVwPp0EeyN3IBhtIohtA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yh6BsPp0EeyN3IBhtIohtA" name="drive" specification="_yhfyAPp0EeyN3IBhtIohtA">
+          <language>java</language>
+          <body>System.out.println(&quot;Jump in the Truck and start driving!&quot;);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yhfyAPp0EeyN3IBhtIohtA" name="drive" method="_yh6BsPp0EeyN3IBhtIohtA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_yhgZEfp0EeyN3IBhtIohtA" name="Van">
+        <interfaceRealization xmi:id="_yh4zkvp0EeyN3IBhtIohtA" client="_yhgZEfp0EeyN3IBhtIohtA" supplier="_yhdVwPp0EeyN3IBhtIohtA" contract="_yhdVwPp0EeyN3IBhtIohtA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yh6Bsfp0EeyN3IBhtIohtA" name="drive" specification="_yhhAIPp0EeyN3IBhtIohtA">
+          <language>java</language>
+          <body>System.out.println(&quot;Jump in the Van and start driving!&quot;);&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yhhAIPp0EeyN3IBhtIohtA" name="drive" method="_yh6Bsfp0EeyN3IBhtIohtA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_ycLNIPp0EeyN3IBhtIohtA">
+      <eAnnotations xmi:id="_ycLNIfp0EeyN3IBhtIohtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_ycLNIvp0EeyN3IBhtIohtA" base_Package="_yZo2gPp0EeyN3IBhtIohtA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yhfK8Pp0EeyN3IBhtIohtA" base_Element="_yhej4vp0EeyN3IBhtIohtA"/>
+  <UMLLabProfile:Annotations xmi:id="_yhfK8fp0EeyN3IBhtIohtA" base_Element="_yhej4vp0EeyN3IBhtIohtA">
+    <annotations xmi:id="_yhfK8vp0EeyN3IBhtIohtA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yhfyAfp0EeyN3IBhtIohtA" base_Element="_yhfyAPp0EeyN3IBhtIohtA"/>
+  <UMLLabProfile:Annotations xmi:id="_yhfyAvp0EeyN3IBhtIohtA" base_Element="_yhfyAPp0EeyN3IBhtIohtA">
+    <annotations xmi:id="_yhgZEPp0EeyN3IBhtIohtA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yhhAIfp0EeyN3IBhtIohtA" base_Element="_yhhAIPp0EeyN3IBhtIohtA"/>
+  <UMLLabProfile:Annotations xmi:id="_yhhAIvp0EeyN3IBhtIohtA" base_Element="_yhhAIPp0EeyN3IBhtIohtA">
+    <annotations xmi:id="_yhhAI_p0EeyN3IBhtIohtA" name="Override"/>
+  </UMLLabProfile:Annotations>
+</xmi:XMI>

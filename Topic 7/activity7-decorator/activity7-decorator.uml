@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_LV8N8PpzEeyN3IBhtIohtA" name="activity7_decorator">
+    <eAnnotations xmi:id="_MqkekPpzEeyN3IBhtIohtA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_MqkekfpzEeyN3IBhtIohtA" source="codegen">
+        <details xmi:id="_MqkekvpzEeyN3IBhtIohtA" key="codegenDirectory" value="/activity7-decorator/src"/>
+        <details xmi:id="_M1U9EPpzEeyN3IBhtIohtA" key="AssociatedSourceCode" value="/activity7-decorator/src/decorator/CarDecorator.java;4180672705/1;/activity7-decorator/src/decorator/CarFactory.java;957032951/1;/activity7-decorator/src/decorator/CarSkinBlue.java;1752279513/1;/activity7-decorator/src/decorator/CarType.java;114784205/1;/activity7-decorator/src/decorator/DecoratorDemo.java;575929242/1;/activity7-decorator/src/decorator/Sedan.java;2208941643/1;/activity7-decorator/src/decorator/Truck.java;3562052544/1;/activity7-decorator/src/decorator/Van.java;2064707799/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_MwXkkPpzEeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_MwXkkfpzEeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_MwYLoPpzEeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_MwYLofpzEeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_MwYLovpzEeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_MwYLo_pzEeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_MwYLpPpzEeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_MwYLpfpzEeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_MwYysPpzEeyN3IBhtIohtA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_MwdEIPpzEeyN3IBhtIohtA" name="decorator">
+      <packagedElement xmi:type="uml:Class" xmi:id="_Mwp4cPpzEeyN3IBhtIohtA" name="CarDecorator" isAbstract="true">
+        <ownedAttribute xmi:id="_MxSKkPpzEeyN3IBhtIohtA" name="decoratedCar" visibility="protected" type="_MwybUPpzEeyN3IBhtIohtA" association="_MxoI0PpzEeyN3IBhtIohtA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MxdwwPpzEeyN3IBhtIohtA" name="CarDecorator" specification="_MxMD8PpzEeyN3IBhtIohtA">
+          <ownedParameter xmi:id="_MxdwwfpzEeyN3IBhtIohtA" name="decoratedCar" type="_MwybUPpzEeyN3IBhtIohtA"/>
+          <ownedParameter xmi:id="_MxdwwvpzEeyN3IBhtIohtA" type="_Mwp4cPpzEeyN3IBhtIohtA" direction="return"/>
+          <language>java</language>
+          <body>this.decoratedCar = decoratedCar;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MxkecPpzEeyN3IBhtIohtA" name="drive" specification="_MwsUsPpzEeyN3IBhtIohtA">
+          <language>java</language>
+          <body>decoratedCar.drive();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_MwsUsPpzEeyN3IBhtIohtA" name="drive" method="_MxkecPpzEeyN3IBhtIohtA"/>
+        <ownedOperation xmi:id="_MxMD8PpzEeyN3IBhtIohtA" name="CarDecorator" method="_MxdwwPpzEeyN3IBhtIohtA">
+          <eAnnotations xmi:id="_MxMD8vpzEeyN3IBhtIohtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MxMD8_pzEeyN3IBhtIohtA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MxMD8fpzEeyN3IBhtIohtA" name="decoratedCar" type="_MwybUPpzEeyN3IBhtIohtA"/>
+          <ownedParameter xmi:id="_MxMrAPpzEeyN3IBhtIohtA" type="_Mwp4cPpzEeyN3IBhtIohtA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Mwti0PpzEeyN3IBhtIohtA" name="CarFactory">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MxkecfpzEeyN3IBhtIohtA" name="getCar" specification="_MwuJ4PpzEeyN3IBhtIohtA">
+          <ownedParameter xmi:id="_MxkecvpzEeyN3IBhtIohtA" name="car">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_Mxkec_pzEeyN3IBhtIohtA" type="_MwybUPpzEeyN3IBhtIohtA" direction="return"/>
+          <language>java</language>
+          <body>if(car == null) {&#xD;
+			return null;&#xD;
+		}&#xD;
+		if(car.equalsIgnoreCase(&quot;Truck&quot;)) {&#xD;
+			return new Truck();&#xD;
+		}&#xD;
+		if(car.equalsIgnoreCase(&quot;Sedan&quot;)) {&#xD;
+			return new Sedan();&#xD;
+		}&#xD;
+		if(car.equalsIgnoreCase(&quot;Van&quot;)) {&#xD;
+			return new Van();&#xD;
+		}&#xD;
+		&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_MwuJ4PpzEeyN3IBhtIohtA" name="getCar" method="_MxkecfpzEeyN3IBhtIohtA">
+          <ownedParameter xmi:id="_MwuJ4fpzEeyN3IBhtIohtA" name="car">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_MxMrAfpzEeyN3IBhtIohtA" type="_MwybUPpzEeyN3IBhtIohtA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MwvYAPpzEeyN3IBhtIohtA" name="CarSkinBlue">
+        <generalization xmi:id="_MxN5IfpzEeyN3IBhtIohtA" general="_Mwp4cPpzEeyN3IBhtIohtA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MxlFgPpzEeyN3IBhtIohtA" name="CarSkinBlue" specification="_MxNSEPpzEeyN3IBhtIohtA">
+          <ownedParameter xmi:id="_MxlFgfpzEeyN3IBhtIohtA" name="decoratedCar" type="_MwybUPpzEeyN3IBhtIohtA"/>
+          <ownedParameter xmi:id="_MxlFgvpzEeyN3IBhtIohtA" type="_MwvYAPpzEeyN3IBhtIohtA" direction="return"/>
+          <language>java</language>
+          <body>super(decoratedCar);&#xD;
+		// TODO Auto-generated constructor stub&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MxlFg_pzEeyN3IBhtIohtA" name="drive" specification="_Mwv_EPpzEeyN3IBhtIohtA">
+          <language>java</language>
+          <body>decoratedCar.drive();&#xD;
+		setCarColorBlue(decoratedCar);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MxlFhPpzEeyN3IBhtIohtA" name="setCarColorBlue" specification="_MxNSFfpzEeyN3IBhtIohtA">
+          <ownedParameter xmi:id="_MxlFhfpzEeyN3IBhtIohtA" name="decoratedCar" type="_MwybUPpzEeyN3IBhtIohtA"/>
+          <language>java</language>
+          <body>System.out.println(&quot;CarColor: Blue&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Mwv_EPpzEeyN3IBhtIohtA" name="drive" method="_MxlFg_pzEeyN3IBhtIohtA"/>
+        <ownedOperation xmi:id="_MxNSEPpzEeyN3IBhtIohtA" name="CarSkinBlue" method="_MxlFgPpzEeyN3IBhtIohtA">
+          <eAnnotations xmi:id="_MxNSEvpzEeyN3IBhtIohtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_MxNSE_pzEeyN3IBhtIohtA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_MxNSEfpzEeyN3IBhtIohtA" name="decoratedCar" type="_MwybUPpzEeyN3IBhtIohtA"/>
+          <ownedParameter xmi:id="_MxNSFPpzEeyN3IBhtIohtA" type="_MwvYAPpzEeyN3IBhtIohtA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_MxNSFfpzEeyN3IBhtIohtA" name="setCarColorBlue" visibility="private" method="_MxlFhPpzEeyN3IBhtIohtA">
+          <ownedParameter xmi:id="_MxN5IPpzEeyN3IBhtIohtA" name="decoratedCar" type="_MwybUPpzEeyN3IBhtIohtA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_MwybUPpzEeyN3IBhtIohtA" name="CarType">
+        <ownedOperation xmi:id="_MwzCYPpzEeyN3IBhtIohtA" name="drive"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MwzCYfpzEeyN3IBhtIohtA" name="DecoratorDemo">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MxlskPpzEeyN3IBhtIohtA" name="main" specification="_MwzpcPpzEeyN3IBhtIohtA">
+          <ownedParameter xmi:id="_MxlskfpzEeyN3IBhtIohtA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MxlskvpzEeyN3IBhtIohtA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO Auto-generated method stub&#xD;
+		CarFactory factory = new CarFactory();&#xD;
+		&#xD;
+		CarType car1 = factory.getCar(&quot;Truck&quot;);&#xD;
+		car1.drive();&#xD;
+		CarType car2 = factory.getCar(&quot;Sedan&quot;);&#xD;
+		car2.drive();&#xD;
+		CarType car3 = factory.getCar(&quot;Van&quot;);&#xD;
+		car3.drive();&#xD;
+		&#xD;
+		CarType Van = new Van();&#xD;
+		CarSkinBlue BlueVan = new CarSkinBlue(new Van());&#xD;
+		CarSkinBlue BlueTruck = new CarSkinBlue(new Truck());&#xD;
+		&#xD;
+		Van.drive();&#xD;
+		System.out.println(&quot;Decorator Called&quot;);&#xD;
+		BlueVan.drive();&#xD;
+		System.out.println(&quot;Decorator Called&quot;);&#xD;
+		BlueTruck.drive();&#xD;
+		&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_MwzpcPpzEeyN3IBhtIohtA" name="main" isStatic="true" method="_MxlskPpzEeyN3IBhtIohtA">
+          <ownedParameter xmi:id="_MwzpcfpzEeyN3IBhtIohtA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Mw0QgPpzEeyN3IBhtIohtA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Mw0QgfpzEeyN3IBhtIohtA" name="Sedan">
+        <interfaceRealization xmi:id="_MxQ8cPpzEeyN3IBhtIohtA" client="_Mw0QgfpzEeyN3IBhtIohtA" supplier="_MwybUPpzEeyN3IBhtIohtA" contract="_MwybUPpzEeyN3IBhtIohtA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Mxlsk_pzEeyN3IBhtIohtA" name="drive" specification="_Mw03kPpzEeyN3IBhtIohtA">
+          <language>java</language>
+          <body>System.out.println(&quot;Jump in the Sedan and start driving!&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Mw03kPpzEeyN3IBhtIohtA" name="drive" method="_Mxlsk_pzEeyN3IBhtIohtA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Mw2FsPpzEeyN3IBhtIohtA" name="Truck">
+        <interfaceRealization xmi:id="_MxRjgPpzEeyN3IBhtIohtA" client="_Mw2FsPpzEeyN3IBhtIohtA" supplier="_MwybUPpzEeyN3IBhtIohtA" contract="_MwybUPpzEeyN3IBhtIohtA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MxlslPpzEeyN3IBhtIohtA" name="drive" specification="_Mw2FsfpzEeyN3IBhtIohtA">
+          <language>java</language>
+          <body>System.out.println(&quot;Jump in the Truck and start driving!&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Mw2FsfpzEeyN3IBhtIohtA" name="drive" method="_MxlslPpzEeyN3IBhtIohtA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Mw3T0PpzEeyN3IBhtIohtA" name="Van">
+        <interfaceRealization xmi:id="_MxRjgfpzEeyN3IBhtIohtA" client="_Mw3T0PpzEeyN3IBhtIohtA" supplier="_MwybUPpzEeyN3IBhtIohtA" contract="_MwybUPpzEeyN3IBhtIohtA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_MxlslfpzEeyN3IBhtIohtA" name="drive" specification="_Mw364PpzEeyN3IBhtIohtA">
+          <language>java</language>
+          <body>System.out.println(&quot;Jump in the Van and start driving!&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Mw364PpzEeyN3IBhtIohtA" name="drive" method="_MxlslfpzEeyN3IBhtIohtA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MxoI0PpzEeyN3IBhtIohtA" name="" memberEnd="_MxoI0fpzEeyN3IBhtIohtA _MxSKkPpzEeyN3IBhtIohtA">
+        <ownedEnd xmi:id="_MxoI0fpzEeyN3IBhtIohtA" name="" type="_Mwp4cPpzEeyN3IBhtIohtA" association="_MxoI0PpzEeyN3IBhtIohtA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_MqlssPpzEeyN3IBhtIohtA">
+      <eAnnotations xmi:id="_MqowAPpzEeyN3IBhtIohtA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_MqrzUPpzEeyN3IBhtIohtA" base_Package="_LV8N8PpzEeyN3IBhtIohtA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MwwmIPpzEeyN3IBhtIohtA" base_Element="_Mwv_EPpzEeyN3IBhtIohtA"/>
+  <UMLLabProfile:Annotations xmi:id="_MwxNMPpzEeyN3IBhtIohtA" base_Element="_Mwv_EPpzEeyN3IBhtIohtA">
+    <annotations xmi:id="_MwxNMfpzEeyN3IBhtIohtA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Mw03kfpzEeyN3IBhtIohtA" base_Element="_Mw03kPpzEeyN3IBhtIohtA"/>
+  <UMLLabProfile:Annotations xmi:id="_Mw1eoPpzEeyN3IBhtIohtA" base_Element="_Mw03kPpzEeyN3IBhtIohtA">
+    <annotations xmi:id="_Mw1eofpzEeyN3IBhtIohtA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Mw2swPpzEeyN3IBhtIohtA" base_Element="_Mw2FsfpzEeyN3IBhtIohtA"/>
+  <UMLLabProfile:Annotations xmi:id="_Mw2swfpzEeyN3IBhtIohtA" base_Element="_Mw2FsfpzEeyN3IBhtIohtA">
+    <annotations xmi:id="_Mw2swvpzEeyN3IBhtIohtA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Mw4h8PpzEeyN3IBhtIohtA" base_Element="_Mw364PpzEeyN3IBhtIohtA"/>
+  <UMLLabProfile:Annotations xmi:id="_Mw4h8fpzEeyN3IBhtIohtA" base_Element="_Mw364PpzEeyN3IBhtIohtA">
+    <annotations xmi:id="_Mw4h8vpzEeyN3IBhtIohtA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_MxSxoPpzEeyN3IBhtIohtA" base_Element="_MxSKkPpzEeyN3IBhtIohtA"/>
+  <UMLLabProfile:Reference xmi:id="_MxpW8PpzEeyN3IBhtIohtA" base_Element="_MxoI0PpzEeyN3IBhtIohtA"/>
+</xmi:XMI>

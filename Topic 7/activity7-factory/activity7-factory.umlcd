@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_yaIlwPp0EeyN3IBhtIohtA">
+  <modelElement href="activity7-factory.uml#_yhZrYPp0EeyN3IBhtIohtA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_yioacPp0EeyN3IBhtIohtA" sourceAnchor="61.0,0.0" targetAnchor="50.0,71.0" dashed="true" superClass="_yipokPp0EeyN3IBhtIohtA" subClass="_yihswPp0EeyN3IBhtIohtA">
+    <modelElement href="activity7-factory.uml#_yh4zkPp0EeyN3IBhtIohtA"/>
+    <bendpoints xmi:id="_ykteE_p0EeyN3IBhtIohtA" sourceY="-81" targetX="120" targetY="28"/>
+    <bendpoints xmi:id="_ykteFPp0EeyN3IBhtIohtA" sourceX="-120" sourceY="-81" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_yioacfp0EeyN3IBhtIohtA" sourceAnchor="60.0,0.0" targetAnchor="50.0,71.0" dashed="true" superClass="_yipokPp0EeyN3IBhtIohtA" subClass="_yikJAPp0EeyN3IBhtIohtA">
+    <modelElement href="activity7-factory.uml#_yh4zkfp0EeyN3IBhtIohtA"/>
+    <bendpoints xmi:id="_ykteFfp0EeyN3IBhtIohtA" sourceY="-27" targetX="-65" targetY="28"/>
+    <bendpoints xmi:id="_ykteFvp0EeyN3IBhtIohtA" sourceX="65" sourceY="-27" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_yioacvp0EeyN3IBhtIohtA" sourceAnchor="0.0,27.0" targetAnchor="50.0,71.0" dashed="true" superClass="_yipokPp0EeyN3IBhtIohtA" subClass="_yif3kPp0EeyN3IBhtIohtA">
+    <modelElement href="activity7-factory.uml#_yh4zkvp0EeyN3IBhtIohtA"/>
+    <bendpoints xmi:id="_ykteEPp0EeyN3IBhtIohtA" sourceX="-23" targetX="-140" targetY="203"/>
+    <bendpoints xmi:id="_ykteEfp0EeyN3IBhtIohtA" sourceX="-23" sourceY="-175" targetX="-140" targetY="28"/>
+    <bendpoints xmi:id="_ykteEvp0EeyN3IBhtIohtA" sourceX="117" sourceY="-175" targetY="28"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yif3kPp0EeyN3IBhtIohtA" name="Van" generalizations="_yioacvp0EeyN3IBhtIohtA">
+    <modelElement href="activity7-factory.uml#_yhgZEfp0EeyN3IBhtIohtA"/>
+    <visualProperties xmi:id="_yif3kfp0EeyN3IBhtIohtA" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yif3kvp0EeyN3IBhtIohtA" label="+"/>
+    <operations xmi:id="_yif3k_p0EeyN3IBhtIohtA" name="drive">
+      <modelElement href="activity7-factory.uml#_yhhAIPp0EeyN3IBhtIohtA"/>
+      <stereotypes xmi:id="_yif3lPp0EeyN3IBhtIohtA" name="LegacyStyledElement">
+        <modelElement href="activity7-factory.uml#_yhhAIfp0EeyN3IBhtIohtA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yif3lfp0EeyN3IBhtIohtA" name="Annotations">
+        <modelElement href="activity7-factory.uml#_yhhAIvp0EeyN3IBhtIohtA"/>
+      </stereotypes>
+      <visibility xmi:id="_yif3lvp0EeyN3IBhtIohtA" label="+"/>
+      <cardinality xmi:id="_yif3l_p0EeyN3IBhtIohtA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yihswPp0EeyN3IBhtIohtA" name="Sedan" generalizations="_yioacPp0EeyN3IBhtIohtA">
+    <modelElement href="activity7-factory.uml#_yhej4fp0EeyN3IBhtIohtA"/>
+    <visualProperties xmi:id="_yihswfp0EeyN3IBhtIohtA" position="206.0,-37.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yihswvp0EeyN3IBhtIohtA" label="+"/>
+    <operations xmi:id="_yihsw_p0EeyN3IBhtIohtA" name="drive">
+      <modelElement href="activity7-factory.uml#_yhej4vp0EeyN3IBhtIohtA"/>
+      <stereotypes xmi:id="_yihsxPp0EeyN3IBhtIohtA" name="LegacyStyledElement">
+        <modelElement href="activity7-factory.uml#_yhfK8Pp0EeyN3IBhtIohtA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yihsxfp0EeyN3IBhtIohtA" name="Annotations">
+        <modelElement href="activity7-factory.uml#_yhfK8fp0EeyN3IBhtIohtA"/>
+      </stereotypes>
+      <visibility xmi:id="_yihsxvp0EeyN3IBhtIohtA" label="+"/>
+      <cardinality xmi:id="_yihsx_p0EeyN3IBhtIohtA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yikJAPp0EeyN3IBhtIohtA" name="Truck" generalizations="_yioacfp0EeyN3IBhtIohtA">
+    <modelElement href="activity7-factory.uml#_yhfK8_p0EeyN3IBhtIohtA"/>
+    <visualProperties xmi:id="_yikJAfp0EeyN3IBhtIohtA" position="22.0,-91.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yikJAvp0EeyN3IBhtIohtA" label="+"/>
+    <operations xmi:id="_yikJA_p0EeyN3IBhtIohtA" name="drive">
+      <modelElement href="activity7-factory.uml#_yhfyAPp0EeyN3IBhtIohtA"/>
+      <stereotypes xmi:id="_yikJBPp0EeyN3IBhtIohtA" name="LegacyStyledElement">
+        <modelElement href="activity7-factory.uml#_yhfyAfp0EeyN3IBhtIohtA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yikJBfp0EeyN3IBhtIohtA" name="Annotations">
+        <modelElement href="activity7-factory.uml#_yhfyAvp0EeyN3IBhtIohtA"/>
+      </stereotypes>
+      <visibility xmi:id="_yikJBvp0EeyN3IBhtIohtA" label="+"/>
+      <cardinality xmi:id="_yikJB_p0EeyN3IBhtIohtA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yimlQPp0EeyN3IBhtIohtA" name="CarFactory">
+    <modelElement href="activity7-factory.uml#_yhcHoPp0EeyN3IBhtIohtA"/>
+    <visualProperties xmi:id="_yimlQfp0EeyN3IBhtIohtA" position="393.0,-91.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yimlQvp0EeyN3IBhtIohtA" label="+"/>
+    <operations xmi:id="_yimlQ_p0EeyN3IBhtIohtA" name="getCar">
+      <modelElement href="activity7-factory.uml#_yhcusPp0EeyN3IBhtIohtA"/>
+      <visibility xmi:id="_yimlRPp0EeyN3IBhtIohtA" label="+"/>
+      <cardinality xmi:id="_yimlRfp0EeyN3IBhtIohtA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yimlRvp0EeyN3IBhtIohtA">
+        <modelElement href="activity7-factory.uml#_yh4MgPp0EeyN3IBhtIohtA"/>
+        <type xmi:id="_yimlR_p0EeyN3IBhtIohtA" name="CarType">
+          <modelElement href="activity7-factory.uml#_yhdVwPp0EeyN3IBhtIohtA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yimlSPp0EeyN3IBhtIohtA" name="car">
+        <modelElement href="activity7-factory.uml#_yhcusfp0EeyN3IBhtIohtA"/>
+        <cardinality xmi:id="_yimlSfp0EeyN3IBhtIohtA" label="1" max="1" min="1"/>
+        <type xmi:id="_yimlSvp0EeyN3IBhtIohtA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_yipokPp0EeyN3IBhtIohtA" name="CarType" subclassedBy="_yioacPp0EeyN3IBhtIohtA _yioacfp0EeyN3IBhtIohtA _yioacvp0EeyN3IBhtIohtA">
+    <modelElement href="activity7-factory.uml#_yhdVwPp0EeyN3IBhtIohtA"/>
+    <visualProperties xmi:id="_yipokfp0EeyN3IBhtIohtA" position="97.0,-217.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yipokvp0EeyN3IBhtIohtA" label="+"/>
+    <operations xmi:id="_yipok_p0EeyN3IBhtIohtA" name="drive">
+      <modelElement href="activity7-factory.uml#_yhdVwfp0EeyN3IBhtIohtA"/>
+      <visibility xmi:id="_yipolPp0EeyN3IBhtIohtA" label="+"/>
+      <cardinality xmi:id="_yipolfp0EeyN3IBhtIohtA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yisE0Pp0EeyN3IBhtIohtA" name="FactoryDemo">
+    <modelElement href="activity7-factory.uml#_yhd80Pp0EeyN3IBhtIohtA"/>
+    <visualProperties xmi:id="_yisr4Pp0EeyN3IBhtIohtA" position="-254.0,-91.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yisr4fp0EeyN3IBhtIohtA" label="+"/>
+    <operations xmi:id="_yisr4vp0EeyN3IBhtIohtA" name="main" staticOperation="true">
+      <modelElement href="activity7-factory.uml#_yhd80fp0EeyN3IBhtIohtA"/>
+      <visibility xmi:id="_yisr4_p0EeyN3IBhtIohtA" label="+"/>
+      <cardinality xmi:id="_yisr5Pp0EeyN3IBhtIohtA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yisr5fp0EeyN3IBhtIohtA" name="args">
+        <modelElement href="activity7-factory.uml#_yhd80vp0EeyN3IBhtIohtA"/>
+        <cardinality xmi:id="_yisr5vp0EeyN3IBhtIohtA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_yisr5_p0EeyN3IBhtIohtA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
